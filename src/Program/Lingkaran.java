@@ -10,12 +10,12 @@ public class Lingkaran implements BangunDatar{
     }
     
     @Override
-    public float luas() {
+    public double luas() {
         return (float) (phi*this.jari*this.jari);
     }
 
     @Override
-    public float keliling() {
+    public double keliling() {
         return (float) (2*phi*this.jari);
     }
     
